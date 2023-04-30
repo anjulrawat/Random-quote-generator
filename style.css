@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    background-color: aqua;
+}
+ .quote-container {
+    background-image: url('img/pool-nature-landscape-palm-ocean.jpg');
+    border: 2px solid ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  #quote {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  #new-quote {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
